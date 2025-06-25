@@ -373,14 +373,14 @@ Organically grow the holistic world view of disruptive innovation via workplace 
                   <div class="icon"></div>
                   <div class="email">
                     <p>Email</p>
-                    <a href="contact@logistics.com">contact@logistics.com</a>
+                    <a href="mailto:contact@logistics.com">contact@logistics.com</a>
                   </div>
                 </div>
                 <div class="contact-variant">
                   <div class="icon"></div>
                   <div class="tel-number">
                     <p>Call Us</p>
-                    <a href="tel:00112365489">(00) 112 365 489</a>
+                    <a href="tel:+00112365489">(00) 112 365 489</a>
                   </div>
                 </div>
                 <div class="contact-variant">
@@ -392,37 +392,35 @@ Organically grow the holistic world view of disruptive innovation via workplace 
                 </div>
               </div>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" action="">
               <div class="layout-2-column">
                 <div class="user-name">
                   <span>Your name<sup>*</sup></span>
                   <label>
-                    <input type="text" required>
+                    <input type="text" name="name" required>
                   </label>
                 </div>
                 <div class="user-email">
                   <span>Email<sup>*</sup></span>
                   <label>
-                    <input type="email" required>
+                    <input type="email" name="email" required>
                   </label>
                 </div>
                 <div class="user-tel-number">
                   <span>Phone number<sup>*</sup></span>
                   <label>
-                    <input type="tel" required>
+                    <input type="tel" name="tel" required>
                   </label>
                 </div>
                 <div class="user-city">
                   <span>City<sup>*</sup></span>
                   <label>
-                    <input type="text" required>
+                    <input type="text" name="city" required>
                   </label>
                 </div>
-                <div class="user-message">
-                  <label>
-                    <input type="text" placeholder="Your Message">
-                  </label>
-                </div>
+              </div>
+              <div class="user-message">
+                <textarea name="message" placeholder="Your Message" rows="10" cols="30"></textarea>  
               </div>
               <button class="button button_colour1">Submit Message</button>
             </form>
