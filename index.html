@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Transit flow</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600&family=League+Spartan&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -13,30 +13,37 @@
   <header class="header">
     <div class="header-information" >
       <div class="logo">
-        <a href="#" class="logo-image"></a>
+        <a href="#" class="logo-image">
+          <div class="logo">
+            <div class="logo-square logo-square_rotated"></div>
+            <div class="logo-square logo-square_straight"></div>
+            <div class="logo-square logo-square_straight"></div>
+            <div class="logo-square logo-square_straight"></div>
+          </div>
+        </a>
         <span>TransitFlow</span>
       </div>
       <div class="address">
         <div class="layout-3-column">
-          <div class="address-block address-block_time">
-            <icon></icon>
-            <div class="adress-block__information">
+          <div class="contact-variant">
+            <div class="icon icon_without-gradient icon-clock background_dark-transparent"></div>
+            <div class="contacts">
               <p>Mon - Sat 9.00 - 18.00</p>
               <p>Sunday Closed</p>
             </div>
           </div>
-          <div class="address-block address-block_email">
-            <icon></icon>
-            <div class="adress-block__information">
+          <div class="contact-variant">
+            <div class="icon icon_without-gradient icon-mail background_dark-transparent"></div>
+            <div class="email">
               <p>Email</p>
-              <p>contact@logistics.com</p>
+              <a href="mailto:contact@logistics.com">contact@logistics.com</a>
             </div>
           </div>
-          <div class="address-block address-block_call">
-            <icon></icon>
-            <div class="adress-block__information">
+          <div class="contact-variant">
+            <div class="icon icon_without-gradient icon-call background_dark-transparent"></div>
+            <div class="tel-number">
               <p>Call Us</p>
-              <p>(00) 112 365 489</p>
+              <a href="tel:+00112365489">(00) 112 365 489</a>
             </div>
           </div>
         </div>
@@ -59,10 +66,10 @@
           <div class="menu__contact-possibility">
             <div class="social-net-information">
               <ul class="follow-us">
-                <li class="instagram"></li>
-                <li class="facebook"></li>
-                <li class="twitter"></li>
-                <li class="linkedin"></li>
+                <li><img class="instagram" src="src/icons/Instagram.svg" alt="instagram"></li>
+                <li><img class="facebook" src="src/icons/Facebook.svg" alt="facebook"></li>
+                <li><img class="twitter" src="src/icons/Twitter.svg" alt="twitter"></li>
+                <li><img class="linkedin" src="src/icons/Linkdin.svg" alt="linkedin"></li>
               </ul>
             </div>
             <button class="request-quote  button_white"></button>
@@ -86,25 +93,28 @@
           <div class="services__description">
             <div class="layout-2-column">
               <div class="service-item">
-                <span class="icon-image"></span>
+                <span class="icon-image ship-icon"></span>
                 <div class="service-item__description">
                   <h3>Sea Transport Services</h3>
                   <p class="description-text">Following the quality of our service thus having gained trust of our many clients.</p>
                 </div>
               </div>
               <div class="service-item">
+                <span class="icon-image building-icon"></span>
                 <div class="service-item__description">
                   <h3>Warehousing Services</h3>
                   <p class="description-text">Following the quality of our service thus having gained trust of our many clients.</p>
                 </div>
               </div>
               <div class="service-item">
+                <span class="icon-image plane-icon"></span>
                 <div class="service-item__description">
                   <h3>Air Fright Services</h3>
                   <p class="description-text">Following the quality of our service thus having gained trust of our many clients.</p>
                 </div>
               </div> 
               <div class="service-item">
+                <span class="icon-image truck-icon"></span>
                 <div class="service-item__description">
                   <h3>Local Shipping Services</h3>
                   <p class="description-text">Following the quality of our service thus having gained trust of our many clients.</p>
@@ -129,11 +139,11 @@ Organically grow the holistic world view of disruptive innovation via workplace 
               </div>
               <ul class="possibilieties">
                 <li>
-                  <span class="icon"></span>
+                  <div class="icon icon_with-gradient icon-box background_coloured1"><img src="./src/icons/icon-parcel.svg" alt="icon-box"></div>
                   <h4>Delivery on Time</h4>
                 </li>
                 <li>
-                  <span class="icon"></span>
+                  <div class="icon icon_with-gradient icon-paper-money background_coloured1"><img class="paper-money" src="./src/icons/icon-paper-money.svg"></div>
                   <h4>Optimized Travel Cost</h4>
                 </li>
               </ul>
@@ -149,14 +159,14 @@ Organically grow the holistic world view of disruptive innovation via workplace 
             <div class="about__statistics-block">
               <div class="delivered-packages statistics-block">
                 <h2>1294</h2>
-                <div class="pattern"></div>
+                <div class="icon-square background_coloured1"></div>
                 <p>Delivered Packages</p>
               </div>
             </div>
             <div class="about__statistics-block">
               <div class="satisfied-clients statistics-block">
                 <h2>3594</h2>
-                <div class="pattern"></div>
+                <div class="icon-square background_coloured1"></div>
                 <p>Satisfied Clients</p>
               </div>
             </div>
@@ -225,7 +235,7 @@ Organically grow the holistic world view of disruptive innovation via workplace 
                   <h5>Kathleen Smith</h5>
                   <p>Fuel Company</p>
                 </div>
-                <div class="quotation-mark background_coloured1">"</div>
+                <div class="icon-quotation-mark icon_with-gradient background_coloured1"><span>"</span></div>
               </div>
               <div class="review__content">
                 <p class="description-text">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
@@ -245,7 +255,7 @@ Organically grow the holistic world view of disruptive innovation via workplace 
                   <h5>John Martin</h5>
                   <p>Restoration Company</p>
                 </div>
-                <div class="quotation-mark background_coloured1">"</div>
+                <div class="icon-quotation-mark icon_with-gradient background_coloured1"><span>"</span></div>
               </div>
               <div class="review__content">
                 <p class="description-text">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
@@ -281,27 +291,27 @@ Organically grow the holistic world view of disruptive innovation via workplace 
             <div class="why-choose-us__possibilities"></div>
               <div class="layout-2-column">
                 <div class="possibility">
-                  <span class="icon"></span>
+                  <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-parcel.svg" alt="icon-box"></div>
                   <h4>Safe Package</h4>
                 </div>
                 <div class="possibility">
-                  <span class="icon"></span>
+                  <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-web.svg" alt="icon-web"></div>
                   <h4>Global Tracking</h4>
                 </div>
                 <div class="possibility">
-                  <span class="icon"></span>
+                  <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-clock.svg" alt="icon-clock"></div>
                   <h4>In Time Delivery</h4>
                 </div>
                 <div class="possibility">
-                  <span class="icon"></span>
+                  <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-ship2.svg" alt="icon-ship"></div>
                   <h4>Ship Everywhere</h4>
                 </div>
                 <div class="possibility">
-                  <span class="icon"></span>
+                  <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-headphones.svg" alt="icon-headphones"></div>
                   <h4>24/7 Support</h4>
                 </div>
                 <div class="possibility">
-                  <span class="icon"></span>
+                  <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-coin.svg" alt="icon-coin"></div>
                   <h4>Transparent Pricing</h4>
                 </div>
               </div>
@@ -323,11 +333,11 @@ Organically grow the holistic world view of disruptive innovation via workplace 
                 <h4>Jessca Arow</h4>
                 <h5>Specialist in cargo transportation</h5>
               </div>
-              <div class="transporter__social-media">
-                <div class="twitter"></div>
-                <div class="facebook"></div>
-                <div class="instagram"></div>
-              </div>
+              <ul class="transporter__social-media background_coloured1">
+                <li><img class="twitter" src="src/icons/Twitter.svg" alt="twitter"></li>
+                <li><img class="facebook" src="src/icons/Facebook.svg" alt="facebook"></li>
+                <li><img class="instagram" src="src/icons/Instagram.svg" alt="instagram"></li>
+              </ul>
             </div>
             <div class="transporter-card">
               <div class="transporter__photo">
@@ -337,12 +347,12 @@ Organically grow the holistic world view of disruptive innovation via workplace 
                 <h4>Kathleen Smith</h4>
                 <h5>Specialist in cargo transportation</h5>
               </div>
-              <div class="transporter__social-media">
-                <div class="linkedin"></div>
-                <div class="twitter"></div>
-                <div class="facebook"></div>
-                <div class="instagram"></div>
-              </div>
+              <ul class="transporter__social-media background_coloured1">
+                <li><img class="linkedin" src="src/icons/Linkdin.svg" alt="linkedin"></li>
+                <li><img class="twitter" src="src/icons/Twitter.svg" alt="twitter"></li>
+                <li><img class="facebook" src="src/icons/Facebook.svg" alt="facebook"></li>
+                <li><img class="instagram" src="src/icons/Instagram.svg" alt="instagram"></li>
+              </ul>
             </div>
             </div>
              <div class="transporter-card">
@@ -353,10 +363,10 @@ Organically grow the holistic world view of disruptive innovation via workplace 
                 <h4>Rebecca Tylor</h4>
                 <h5>Specialist in cargo transportation</h5>
               </div>
-              <div class="transporter__social-media">
-                <div class="facebook"></div>
-                <div class="instagram"></div>
-              </div>
+              <ul class="transporter__social-media background_coloured1">
+                <li><img class="facebook" src="src/icons/Facebook.svg" alt="facebook"></li>
+                <li><img class="instagram" src="src/icons/Instagram.svg" alt="instagram"></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -374,24 +384,24 @@ Organically grow the holistic world view of disruptive innovation via workplace 
               </div>
               <div class="contacts">
                 <div class="contact-variant">
-                  <div class="icon"></div>
+                  <div class="icon icon-mail icon_without-gradient background_dark-transparent"></div>
                   <div class="email">
                     <p>Email</p>
                     <a href="mailto:contact@logistics.com">contact@logistics.com</a>
                   </div>
                 </div>
                 <div class="contact-variant">
-                  <div class="icon"></div>
+                  <div class="icon icon-call icon_without-gradient background_dark-transparent"></div>
                   <div class="tel-number">
                     <p>Call Us</p>
                     <a href="tel:+00112365489">(00) 112 365 489</a>
                   </div>
                 </div>
                 <div class="contact-variant">
-                  <div class="icon"></div>
+                  <div class="icon icon-clock icon_without-gradient background_dark-transparent"></div>
                   <div class="contacts">
-                    <span>Mon - Sat 9.00 - 18.00</span>
-                    <span>Sunday Closed</span>
+                    <p>Mon - Sat 9.00 - 18.00</p>
+                    <p>Sunday Closed</p>
                   </div>
                 </div>
               </div>
@@ -449,7 +459,7 @@ Organically grow the holistic world view of disruptive innovation via workplace 
             <div class="news-item">
               <image class="news-item__image" src="./src/images/homepage/container terminal top view.jpg" alt="container terminal top view"></image>
               <div class="news-item__date">
-                <span class="icon"></span>
+                <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
                 <h3>08</h3>
                 <p>September</p>
               </div>
@@ -467,7 +477,7 @@ Organically grow the holistic world view of disruptive innovation via workplace 
             <div class="news-item">
               <image class="news-item__image" src="./src/images/homepage/people unload boxes.jpg" alt="people unload boxes"></image>
               <div class="news-item__date">
-                <span class="icon"></span>
+                <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
                 <h3>12</h3>
                 <p>September</p>
               </div>
@@ -485,7 +495,7 @@ Organically grow the holistic world view of disruptive innovation via workplace 
             <div class="news-item">
               <image class="news-item__image" src="./src/images/homepage/container vessel from top.jpg" alt="container vessel from top"></image>
               <div class="news-item__date">
-                <span class="icon"></span>
+                <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
                 <h3>25</h3>
                 <p>September</p>
               </div>
@@ -511,8 +521,15 @@ Organically grow the holistic world view of disruptive innovation via workplace 
         <div class="footer-content">
           <div class="footer__headings background_dark-transparent">
             <div class="layout-4-column">
-              <div class="logo background_dark">
-                <a href="#" class="logo-image"></a>
+              <div class="logo">
+                <a href="#" class="logo-image">
+                  <div class="logo">
+                  <div class="logo-square logo-square_rotated"></div>
+                  <div class="logo-square logo-square_straight"></div>
+                  <div class="logo-square logo-square_straight"></div>
+                  <div class="logo-square logo-square_straight"></div>
+                  </div>
+                </a>
                 <span>TransitFlow</span>
               </div>
               <h5>Pages</h5>
@@ -523,19 +540,19 @@ Organically grow the holistic world view of disruptive innovation via workplace 
           <div class="footer-content-items background_dark">
             <div class="contact-details">
               <p class="description-text">Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.</p>
-              <div class="address-block address-block_email">
-                <icon></icon>
-                <div class="adress-block__information">
+              <div class="contact-variant">
+                <div class="icon icon-mail icon_without-gradient background_dark-transparent"></div>
+                <div class="email">
                   <p>Email</p>
-                  <p>contact@logistics.com</p>
+                  <a href="mailto:contact@logistics.com">contact@logistics.com</a>
                 </div>
               </div>
-              <div class="address-block address-block_call">
-                <icon></icon>
-                  <div class="adress-block__information">
-                    <p>Call Us</p>
-                    <p>(00) 112 365 489</p>
-                  </div>
+              <div class="contact-variant">
+                <div class="icon icon-call icon_without-gradient background_dark-transparent"></div>
+                <div class="tel-number">
+                  <p>Call Us</p>
+                  <a href="tel:+00112365489">(00) 112 365 489</a>
+                </div>
               </div>
             </div>
             <ul class="list-pages">
@@ -562,9 +579,9 @@ Organically grow the holistic world view of disruptive innovation via workplace 
               <div class="subscription-form__buttons">
                 <button type="submit" class="button background_coloured1">Send Now</button>
                 <ul class="follow-us">
-                  <li class="linkedin"></li>
-                  <li class="twitter"></li>
-                  <li class="facebook"></li>    
+                  <li><img class="linkedin" src="src/icons/Linkdin.svg" alt="linkedin"></li>
+                  <li><img class="twitter" src="src/icons/Twitter.svg" alt="twitter"></li>
+                  <li><img class="facebook" src="src/icons/Facebook.svg" alt="facebook"></li>    
                 </ul>
               </div>
             </form>

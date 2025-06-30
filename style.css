@@ -1,0 +1,116 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.logo {
+  width:24px;
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo-square {
+  height: 10px;
+  width: 10px;
+  background-color: #FFB82B;
+}
+
+.logo-square_rotated {
+  transform: rotate(30deg);
+  position: relative;
+  right: 2px;
+}
+
+.icon {
+  height:63px;
+  width:63px;
+  border-radius: 50%;
+}
+
+.icon_with-gradient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_without-gradient {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px;
+}
+
+.icon-clock {
+  background-image: url("./src/icons/schedule_icon.svg");
+}
+.icon-mail {
+  background-image: url("./src/icons/mail_icon.svg");
+}
+
+.icon-call {
+  background-image: url("./src/icons/call_icon.svg");
+}
+
+.icon-image {
+  height: 65.22px;
+  width: 75px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.icon-square {
+  height: 17px;
+  width: 17px;
+}
+
+.icon-quotation-mark {
+  height: 72.85px;
+  width: 72.85px;
+  border-radius: 50%;
+}
+
+.paper-money {
+  height: 35px;
+}
+
+.ship-icon {
+  background-image: url("./src/icons/ship-icon.svg");
+}
+
+.building-icon {
+  background-image: url("./src/icons/building-icon.svg");
+}
+
+.plane-icon {
+  background-image: url("./src/icons/plane-icon.svg");
+}
+
+.truck-icon {
+  background-image: url("./src/icons/truck-icon.svg");
+}
+
+.instagram, .facebook, .twitter, .linkedin {
+  object-fit: contain;
+}
+
+.background_dark-transparent{
+  background-color: #111C55;
+  border-color: #273270;
+}
+
+.background_coloured1 {
+  background: linear-gradient( to right, #FFB629, #FFDA56, #FFD7A6);
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: row;
+  height:19.42px;
+  width:150.99px;
+}
+
