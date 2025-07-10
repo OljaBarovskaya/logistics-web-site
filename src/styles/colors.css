@@ -1,0 +1,35 @@
+.background_primary-coloured {
+  background: linear-gradient( to right, #FFB629, #FFDA56, #FFD7A6);
+}
+
+.background_primary2-coloured {
+  background-color: #091242;
+}
+
+.background_coloured-semi-dark {
+  background-color: rgb(4,28,25,0.5);
+}
+
+.background_coloured-light {
+  background-color: rgb(232,232,232,0.5);
+}
+
+.background_dark{
+  background-color: #1C1F35;
+}
+
+.background_coloured-light-grey {
+  background-color: rgb(232, 232, 232, 0.1);
+}
+
+.color_grey {
+  color:#666C89;
+}
+
+.color_light {
+  color: #FFFFFF;
+}
+
+.color_primary {
+  color: #FFB629;
+}

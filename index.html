@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Transit flow</title>
+  <link rel="stylesheet" href="./src/styles/basic.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./src/styles/icons.css">
+  <link rel="stylesheet" href="./src/styles/colors.css">
+  <link rel="stylesheet" href="./src/styles/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600&family=League+Spartan&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header background_coloured2">
+  <header class="header background_primary2-coloured color_light">
     <div class="wrapper header__information">
       <div class="logo">
         <a href="#">
@@ -25,21 +29,21 @@
       </div>
       <div class="address">
         <div class="contact-variant">
-          <div class="icon icon_without-gradient icon-clock background_coloured-dark"></div>
+          <div class="icon icon_without-gradient icon-clock icon_dark"></div>
           <div>
             <p>Mon - Sat 9.00 - 18.00</p>
             <p>Sunday Closed</p>
           </div>
         </div>
         <div class="contact-variant">
-          <div class="icon icon_without-gradient icon-mail background_coloured-dark"></div>
+          <div class="icon icon_without-gradient icon-mail icon_dark"></div>
           <div class="email">
             <p>Email</p>
             <a href="mailto:contact@logistics.com">contact@logistics.com</a>
           </div>
         </div>
         <div class="contact-variant">
-          <div class="icon icon_without-gradient icon-call background_coloured-dark"></div>
+          <div class="icon icon_without-gradient icon-call icon_dark"></div>
           <div class="tel-number">
             <p>Call Us</p>
             <a href="tel:+00112365489">(00) 112 365 489</a>
@@ -49,7 +53,7 @@
     </div>
   </header>
   <main>
-    <div class="banner">
+    <div class="banner color_light">
       <div class="wrapper">
         <div class="menu">
           <nav class="menu__navigation">
@@ -60,7 +64,12 @@
               <li class="navigation-element_side-bordered">Project</li>
               <li>Contacts</li>
             </ul>
-          </nav>
+            <div class="burger-menu burger-menu-horizontal burger-menu_hide">
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </div>
+          </nav>  
           <div class="menu__contact-possibility">
             <ul class="follow-us">
               <li><img class="instagram" src="src/icons/Instagram.svg" alt="instagram"></li>
@@ -72,10 +81,12 @@
           </div>
         </div>
         <section class="promo">
-          <h6 class="section-title background_coloured-semi-dark"> Logistics & Supply Chain Solutions </h6>
-          <h1>Your Gateway <br> to any Destination of the World</h1>
-          <p>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus.</p>
-          <button class="button button__promo button_light background_coloured1">Explore more</button>
+          <div class="promo__block">
+            <h6 class="section-title background_coloured-semi-dark"> Logistics & Supply Chain Solutions </h6>
+            <h1>Your Gateway <br> to any Destination of the World</h1>
+            <p>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus.</p>
+            <button class="button button__promo button_light background_primary-coloured">Explore more</button>
+          </div>
         </section>
       </div>
     </div>
@@ -134,11 +145,11 @@
               </div>
               <ul class="possibilieties">
                 <li>
-                  <div class="icon icon_with-gradient icon-box background_coloured1"><img src="./src/icons/icon-parcel.svg" alt="icon-box"></div>
+                  <div class="icon icon_with-gradient icon-box background_primary-coloured"><img src="./src/icons/icon-parcel.svg" alt="icon-box"></div>
                   <h3>Delivery on Time</h3>
                 </li>
                 <li>
-                  <div class="icon icon_with-gradient icon-paper-money background_coloured1"><img class="paper-money" src="./src/icons/icon-paper-money.svg"></div>
+                  <div class="icon icon_with-gradient icon-paper-money background_primary-coloured"><img class="paper-money" src="./src/icons/icon-paper-money.svg"></div>
                   <h3>Optimized Travel Cost</h3>
                 </li>
               </ul>
@@ -152,14 +163,14 @@
             <div class="about__statistics-block">
               <div class="delivered-packages statistics-block">
                  <h2>1294</h2>
-                 <div class="icon-square background_coloured1"></div>
+                 <div class="icon-square background_primary-coloured"></div>
                  <p>Delivered Packages</p>
                </div>
             </div>
             <div class="about__statistics-block border-left_grey">
               <div class="satisfied-clients statistics-block">
                  <h2>3594</h2>
-                <div class="icon-square background_coloured1"></div>
+                <div class="icon-square background_primary-coloured"></div>
                  <p>Satisfied Clients</p>
               </div>
             </div>
@@ -168,8 +179,6 @@
       </div>
     </section> 
     <section class="projects">
-      <div class="projects__top-part"></div>
-      <div class="projects__bottom-part background_coloured1"></div>
       <div class="projects__wrapper">
           <h2>Transporting Across The World</h2>
           <div class="projects__examples">
@@ -191,7 +200,7 @@
                 <p class="project__additional-information color_primary">Road Transportation</p>
               </div>
             </div>
-            <div class="project warehouse-and-sestribution">
+            <div class="project warehouse-and-destribution">
               <div class="project__name">
                 <h5 class="color_light">Warehouse & Distribution</h5>
                 <p class="project__additional-information color_primary">Large Warehouse</p>
@@ -204,9 +213,9 @@
               </div>
             </div>
           </div>
-          <button class="button color_light background_coloured2">More work</button>
-
+          <button class="button color_light background_primary2-coloured">More work</button>
       </div>
+      <div class="projects__bottom-part background_primary-coloured"></div>
     </section>
     <section class="testimonial">
       <div class="wrapper testimonial__wrapper">
@@ -217,8 +226,8 @@
               <h2>What Our Customer Say</h2>
             </div>
             <div class="arrows">
-              <div class="arrow left-arrow background_coloured1">←</div>
-              <div class="arrow right-arrow background_coloured2 color_light">→</div>
+              <div class="arrow left-arrow background_primary-coloured">←</div>
+              <div class="arrow right-arrow background_primary2-coloured color_light">→</div>
             </div>
           </div>
           <div class="testimonial__content">
@@ -231,7 +240,7 @@
                     <p>Fuel Company</p>
                   </div>
                 </div>
-                <div class="icon-quotation-mark icon_with-gradient background_coloured1"><span>"</span></div>
+                <div class="icon-quotation-mark icon_with-gradient background_primary-coloured"><span>"</span></div>
               </div>
               <div class="review__content">
                 <p class="color_grey">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
@@ -244,7 +253,7 @@
                 </ul>
               </div>
             </div>
-            <div class="review background_coloured2">
+            <div class="review review2 background_primary2-coloured">
               <div class="review__user">
                 <div class="review__user-information">
                   <image class="user-image" src="./src/images/homepage/reviewer2.jpg" alt="user's photo"></image>
@@ -253,7 +262,7 @@
                     <p>Restoration Company</p>
                   </div>
                 </div>
-                <div class="icon-quotation-mark icon_with-gradient background_coloured1"><span>"</span></div>
+                <div class="icon-quotation-mark icon_with-gradient background_primary-coloured"><span>"</span></div>
               </div>
               <div class="review__content">
                 <p class="color_light">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
@@ -271,9 +280,9 @@
       </div>
     </section>
     <section class="why-choose-us">
-        <div class="why-choose-us__image-block background_coloured2">
+        <div class="why-choose-us__image-block background_primary2-coloured">
           <div class="why-choose-us__image">
-            <div class="why-choose-us-image__banner background_coloured1">
+            <div class="why-choose-us-image__banner background_primary-coloured">
               <image src="./src/images/homepage/plane-icon.png" alt="plane-icon"></image>
               <h3>Moving your products across borders</h3>
             </div>
@@ -285,32 +294,32 @@
               <h2 class="why-choose-us__heading">We create opportunity to reach potential</h2>
               <p class="color_grey">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. </p>
             </div>
-            <div class="layout-2-column why-choose-us__possibilities">
+            <div class="why-choose-us__possibilities">
                 <div class="possibility__1st-column">
                   <div class="possibility">
-                    <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-parcel.svg" alt="icon-box"></div>
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-parcel.svg" alt="icon-box"></div>
                     <h4>Safe Package</h4>
                   </div>
                    <div class="possibility">
-                    <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-clock.svg" alt="icon-clock"></div>
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-clock.svg" alt="icon-clock"></div>
                     <h4>In Time Delivery</h4>
                   </div>
                   <div class="possibility">
-                    <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-coin.svg" alt="icon-coin"></div>
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-coin.svg" alt="icon-coin"></div>
                     <h4>Transparent Pricing</h4>
                   </div>
                 </div>
                 <div class="possibility__2nd-column">
                   <div class="possibility">
-                    <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-web.svg" alt="icon-web"></div>
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-web.svg" alt="icon-web"></div>
                     <h4>Global Tracking</h4>
                   </div>
                   <div class="possibility">
-                    <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-ship2.svg" alt="icon-ship"></div>
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-ship2.svg" alt="icon-ship"></div>
                     <h4>Ship Everywhere</h4>
                   </div>
                   <div class="possibility">
-                    <div class="icon icon_with-gradient background_coloured1"><img src="./src/icons/icon-headphones.svg" alt="icon-headphones"></div>
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-headphones.svg" alt="icon-headphones"></div>
                     <h4>24/7 Support</h4>
                   </div>
                 </div>
@@ -328,7 +337,7 @@
                 <h5>Jessca Arow</h5>
                 <p>Specialist in cargo transportation</p>
               </div>
-              <ul class="transporter__social-media background_coloured1">
+              <ul class="transporter__social-media background_primary-coloured">
                 <li><img class="twitter" src="src/icons/twitter_dark.svg" alt="twitter"></li>
                 <li><img class="facebook" src="src/icons/facebook_dark.svg" alt="facebook"></li>
                 <li><img class="instagram" src="src/icons/instagram_dark.svg" alt="instagram"></li>
@@ -340,7 +349,7 @@
                 <h5>Kathleen Smith</h5>
                 <p>Specialist in cargo transportation</p>
               </div>
-              <ul class="transporter__social-media background_coloured1">
+              <ul class="transporter__social-media background_primary-coloured">
                 <li><img class="linkedin" src="src/icons/linkedIn_dark.svg" alt="linkedin"></li>
                 <li><img class="twitter" src="src/icons/twitter_dark.svg" alt="twitter"></li>
                 <li><img class="facebook" src="src/icons/facebook_dark.svg" alt="facebook"></li>
@@ -353,7 +362,7 @@
                 <h5>Rebecca Tylor</h5>
                 <p>Specialist in cargo transportation</p>
               </div>
-              <ul class="transporter__social-media background_coloured1">
+              <ul class="transporter__social-media background_primary-coloured">
                 <li><img class="facebook" src="src/icons/facebook_dark.svg" alt="facebook"></li>
                 <li><img class="instagram" src="src/icons/instagram_dark.svg" alt="instagram"></li>
               </ul>
@@ -366,27 +375,27 @@
           <div class="contact__content">
             <div class="contact-information">
               <div class="contacts-information__text">
-                <h6 class="section-title background_coloured-purple">Contact</h6>
+                <h6 class="section-title background_coloured-light-grey">Contact</h6>
                 <h2 class="contacts__heading">Get in touch with us</h2>
                 <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value.</p>
               </div>
               <div class="contacts">
                 <div class="contact-variant">
-                  <div class="icon icon-mail icon_without-gradient background_coloured-dark"></div>
+                  <div class="icon icon-mail icon_without-gradient icon_dark"></div>
                   <div class="email">
                     <p>Email</p>
                     <a href="mailto:contact@logistics.com">contact@logistics.com</a>
                   </div>
                 </div>
                 <div class="contact-variant">
-                  <div class="icon icon-call icon_without-gradient background_coloured-dark"></div>
+                  <div class="icon icon-call icon_without-gradient icon_dark"></div>
                   <div class="tel-number">
                     <p>Call Us</p>
                     <a href="tel:+00112365489">(00) 112 365 489</a>
                   </div>
                 </div>
                 <div class="contact-variant">
-                  <div class="icon icon-clock icon_without-gradient background_coloured-dark"></div>
+                  <div class="icon icon-clock icon_without-gradient icon_dark"></div>
                   <div>
                     <p>Mon - Sat 9.00 - 18.00</p>
                     <p>Sunday Closed</p>
@@ -395,8 +404,7 @@
               </div>
             </div>
             <form class="contact-form" action="">
-              <div class="layout-2-column contact-form__layout-2-column">
-               
+              <div class="contact-form__layout-2-column">
                   <label>
                     <input class="form-field form-field_short user-name background_dark" type="text" name="name" placeholder="Your name*"  required>
                   </label>
@@ -413,7 +421,7 @@
               <label>
                 <textarea class="user-message background_dark form-field form-field_long" name="message" placeholder="Your Message"></textarea>  
               </label>
-              <button class="button button_light background_coloured1" type="submit">Submit Message</button>
+              <button class="button button_light background_primary-coloured" type="submit">Submit Message</button>
             </form>
           </div>
           <div class="contact__images">
@@ -433,25 +441,28 @@
           <div class="blog__content">
             <div class="news-item">
               <image class="news-item__image" src="./src/images/homepage/container terminal top view.jpg" alt="container terminal top view"></image>
-              <div class="news-item__date">
-                <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
-                <h3>08</h3>
-                <p class="color_grey">September</p>
-              </div>
-              <div class="news-item__text">
-                <h3>Inland freight a worthy solution for your business</h3>
-                <p class="color_grey">We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
-                <ul class="news-item__list">
-                  <li>Urgent transport solutions</li>
-                  <li>Reliable & experienced staffs</li>
-                  <li>Urgent transport solutions</li>
-                  <li>Reliable & experienced staffs</li>
-                </ul>
-              </div>
+              <div class="news">
+                 <div class="news-item__date">
+                  <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
+                  <h3>08</h3>
+                  <p class="color_grey">September</p>
+                </div>
+                <div class="news-item__text">
+                  <h3>Inland freight a worthy solution for your business</h3>
+                  <p class="color_grey">We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                  <ul class="news-item__list">
+                    <li>Urgent transport solutions</li>
+                    <li>Reliable & experienced staffs</li>
+                    <li>Urgent transport solutions</li>
+                    <li>Reliable & experienced staffs</li>
+                  </ul>
+                </div>
+              </div>             
             </div>
             <div class="news-item">
               <image class="news-item__image" src="./src/images/homepage/people unload boxes.jpg" alt="people unload boxes"></image>
-              <div class="news-item__date">
+              <div class="news">
+                <div class="news-item__date">
                 <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
                 <h3>12</h3>
                 <p class="color_grey">September</p>
@@ -466,10 +477,12 @@
                   <li>Reliable & experienced staffs</li>
                 </ul>
               </div>
+              </div>
             </div>
             <div class="news-item">
               <image class="news-item__image" src="./src/images/homepage/container vessel from top.jpg" alt="container vessel from top"></image>
-              <div class="news-item__date">
+              <div class="news">
+                <div class="news-item__date">
                 <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
                 <h3>25</h3>
                 <p class="color_grey">September</p>
@@ -484,13 +497,13 @@
                   <li>Reliable & experienced staffs</li>
                 </ul>
               </div>
+              </div>
             </div>
           </div>
-          <button class="button color_light background_coloured2">More Blog</button>
-        
+          <button class="button color_light background_primary2-coloured">More Blog</button>
       </div>
     </section>
-    <footer class="footer background_coloured2 color_light">
+    <footer class="footer background_primary2-coloured color_light">
       <image src="./src/images/homepage/footer background.jpg" alt="footer background"></image>
       <div class="footer__4-column-layout">
               <div class="footer__1st-column">
@@ -511,14 +524,14 @@
           <div class="contact-details">
               <p class="color_grey">Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.</p>
               <div class="contact-variant">
-                <div class="icon icon-mail icon_without-gradient background_coloured-dark"></div>
+                <div class="icon icon-mail icon_without-gradient icon_dark"></div>
                 <div class="email">
                   <p>Email</p>
                   <a href="mailto:contact@logistics.com">contact@logistics.com</a>
                 </div>
               </div>
               <div class="contact-variant">
-                <div class="icon icon-call icon_without-gradient background_coloured-dark"></div>
+                <div class="icon icon-call icon_without-gradient icon_dark"></div>
                 <div class="tel-number">
                   <p>Call Us</p>
                   <a href="tel:+00112365489">(00) 112 365 489</a>
@@ -558,10 +571,10 @@
         </div>
           <form class="subscription-form">
             <label>
-              <input class="form-field form-field_short background_coloured2 email-subscription"type="email" name="email-subscription" placeholder="Your Email" required>
+              <input class="form-field form-field_short background_primary2-coloured email-subscription"type="email" name="email-subscription" placeholder="Your Email" required>
             </label>
               <div class="subscription-form__buttons">
-                <button type="submit" class="button button_light background_coloured1">Send Now</button>
+                <button type="submit" class="button button_light background_primary-coloured">Send Now</button>
                 <ul class="follow-us">
                   <li><img class="linkedin" src="src/icons/Linkdin.svg" alt="linkedin"></li>
                   <li><img class="twitter" src="src/icons/Twitter.svg" alt="twitter"></li>
@@ -571,7 +584,6 @@
             </form>
       </div>
       </div>
-      
       <div class="wrapper">
         <div class="footer-copyright">
           <p class="copyright">Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.</p>

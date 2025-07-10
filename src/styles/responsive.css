@@ -1,0 +1,26 @@
+@media (max-width: 1247px) {
+  .about-information {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 918px) {
+  .why-choose-us__image-block {
+    display: none;
+  }
+
+  .why-choose-us__content{
+    width: 100%;
+    padding: 200px 12.25%;
+  }
+}
+
+
+@media (max-width: 616px) {
+  .about__statistics-block {
+    border: none;
+  }
+}
+
+
+
