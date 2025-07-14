@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
   font-family: "Rubik", Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -76,6 +77,9 @@ button {
   justify-content: center;
   align-items: center;
   border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 ul {
@@ -87,3 +91,8 @@ ul {
   width:75%;
   margin:auto;
 }
+
+a:visited {
+  color:inherit;
+}
+
