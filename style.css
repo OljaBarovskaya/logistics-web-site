@@ -864,7 +864,7 @@ header {
 
 .burger-line {
   display:inline-block;
-  height:1px;
+  height:2.53px;
   width: 100%;
   background-color: #FFFFFF;
 }
@@ -880,6 +880,7 @@ header {
 
   .menu__contact-possibility {
     width: 65%;
+    justify-content: flex-end;
   }
 
   .burger-menu {
