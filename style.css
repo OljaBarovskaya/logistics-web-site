@@ -855,46 +855,6 @@ header {
   text-decoration: underline;
 }
 
-.burger-menu {
-  width:30px;
-  height: 23px;
-  display: none;
-  cursor: pointer;
-}
-
-.burger-line {
-  display:inline-block;
-  height:2.53px;
-  width: 100%;
-  background-color: #FFFFFF;
-}
-
-@media (max-width: 870px) {
-  .menu__navigation {
-    width: 30px;
-  }
-  
-  .navigation {
-    display: none;
-  }
-
-  .menu__contact-possibility {
-    width: 65%;
-    justify-content: flex-end;
-  }
-
-  .burger-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .about__content {
-    padding-top: 20px;
-  }
-}
-
-
 @media (max-width: 640px) {
   .review2 {
     display: none;
