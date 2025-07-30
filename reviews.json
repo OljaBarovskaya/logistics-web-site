@@ -1,0 +1,37 @@
+[
+  {
+    "img": "./src/images/homepage/reviewer1.jpg",
+    "name": "Kathleen Smith",
+    "company": "Fuel Company",
+    "review": "Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+    "stars": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "img": "./src/images/homepage/reviewer2.jpg",
+    "name": "John Martin",
+    "company": "Restoration Company",
+    "review": "Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+    "stars": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "img": "./src/images/homepage/Emi_Frans.jpeg",
+    "name": "Emi Frans",
+    "company": "Marketing Company",
+    "review": "Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+    "stars": "⭐⭐⭐"
+  },
+  {
+    "img": "./src/images/homepage/Kate_Rudolf.jpg",
+    "name": "Kate Rudolf",
+    "company": "Terminal",
+    "review": "Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+    "stars": "⭐⭐⭐⭐⭐"
+  },{
+    "img": "./src/images/homepage/Klara_Genis.jpg",
+    "name": "Klara Genis",
+    "company": "Milk Plant",
+    "review": "Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+    "stars": "⭐⭐⭐⭐⭐"
+  }
+]
+

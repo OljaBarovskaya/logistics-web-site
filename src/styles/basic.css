@@ -92,6 +92,11 @@ ul {
   margin:auto;
 }
 
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 a:visited {
   color:inherit;
 }

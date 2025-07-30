@@ -1,0 +1,68 @@
+.modal-window_open {
+  overflow: hidden;
+  position: relative;
+}
+
+.modal-window_open .dark-background_2 {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.65);
+  position: fixed;
+  z-index: 15;
+}
+
+.modal-window {
+  position:fixed;
+  z-index:20;
+  padding: 5vh 10vw;
+  width: 100vw;
+}
+
+.modal-window__main{
+  padding: 10vh 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap:20px;
+  background-color: #FFFFFF;
+}
+
+.modal-window__img {
+  width: 320px;
+  height: 408px;
+}
+
+.close-button {
+  display:block;
+  position:relative;
+  width:30px;
+  height: 23px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.close-button span:first-child {
+  transform: rotate(45deg);
+  position: absolute;
+  top:7.7px;
+}
+
+.close-button span:last-child{
+  transform: rotate(-45deg);
+  position: absolute;
+  top:7.7px;
+  left:0px;
+}
+
+.line {
+  display:inline-block;
+  height:2.53px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 550px){
+  .modal-window__img {
+    display: none;
+  }
+}

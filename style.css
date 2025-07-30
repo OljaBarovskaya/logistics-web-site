@@ -154,6 +154,7 @@ header {
 }
 
 .request-quote a {
+  color:#23212A;
   text-decoration: none;
 }
 
@@ -390,6 +391,7 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 0 20px 25px;
+  cursor: pointer;
 }
 
 .liquid-transportation{
@@ -409,7 +411,7 @@ header {
 }
 
 .specialized-transport{
-  background-image: url('./src/images/homepage/container\ vessel.jpg');
+  background-image: url('./src/images/homepage/container_vessel.jpg');
 }
 
 .testimonial__wrapper{
@@ -444,6 +446,7 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .testimonial__content{
@@ -485,6 +488,9 @@ header {
 
 .user-image {
   border-radius: 50%;
+  width: 91px;
+  height: 91px;
+  object-fit: cover;
 }
 
 .review__stars {
@@ -492,8 +498,7 @@ header {
 }
 
 .stars{
-  list-style: none;
-  display: flex;
+  display: inline-block;
 }
 
 .why-choose-us{
@@ -856,7 +861,7 @@ header {
 }
 
 @media (max-width: 640px) {
-  .review2 {
+  .testimonial__content div.review:nth-child(2) {
     display: none;
   }
 }

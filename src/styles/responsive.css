@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 814px){
+  .contact-form__layout-2-column >* {
+    width: 75vw;
+  }
+}
+
 
 @media (max-width: 616px) {
   .about__statistics-block {
