@@ -6,6 +6,14 @@ burgerMenu.addEventListener('click', function(){
   document.body.classList.toggle('mob-menu_opened');
 });
 
+const navigationMenu = document.querySelector(".navigation");
+
+if (window.innerWidth < 870){
+  navigationMenu.addEventListener('click', function(){
+    document.body.classList.toggle('mob-menu_opened');
+  })
+}
+
 //slider
 
 let currentCardRight=1;
