@@ -25,11 +25,13 @@
   align-items: center;
   row-gap:20px;
   background-color: #FFFFFF;
+  max-height: calc(90vh - 43px);
+  overflow-y: auto;
 }
 
 .modal-window__img {
   width: 320px;
-  height: 408px;
+  min-height: 408px;
 }
 
 .close-button {

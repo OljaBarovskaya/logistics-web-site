@@ -98,6 +98,8 @@ setListenersForReviewButtons();
 
 //Modal Window for Projects
 
+//const projects = document.querySelector('.projects');
+
 async function showModalWindow(projectNumber) { 
     const projectsInformation = 'projects.json';
     const res = await fetch(projectsInformation);
