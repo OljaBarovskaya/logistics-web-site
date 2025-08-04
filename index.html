@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transit flow</title>
+  <link rel="stylesheet" href="./src/styles/basic.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./src/styles/icons.css">
+  <link rel="stylesheet" href="./src/styles/colors.css">
+  <link rel="stylesheet" href="./src/styles/burger.css">
+  <link rel="stylesheet" href="./src/styles/modal-window.css">
+  <link rel="stylesheet" href="./src/styles/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600&family=League+Spartan&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body class="">
+  <div class="dark-background_2"></div>
+  <header class="header background_primary2-coloured color_light">
+    <div class="wrapper header__information">
+      <div class="logo">
+        <a class="logo__link" href="./index.html">
+          <div class="logo-image">
+            <div class="logo-square logo-square_rotated"></div>
+            <div class="logo-square logo-square_straight"></div>
+            <div class="logo-square logo-square_straight"></div>
+            <div class="logo-square logo-square_straight"></div>
+          </div>
+          <span>TransitFlow</span> 
+        </a>            
+      </div>
+      <div class="address">
+        <div class="contact-variant">
+          <div class="icon icon_without-gradient icon-clock icon_dark"></div>
+          <div>
+            <p>Mon - Sat 9.00 - 18.00</p>
+            <p>Sunday Closed</p>
+          </div>
+        </div>
+        <div class="contact-variant">
+          <div class="icon icon_without-gradient icon-mail icon_dark"></div>
+          <div class="email">
+            <p>Email</p>
+            <a href="mailto:contact@logistics.com">contact@logistics.com</a>
+          </div>
+        </div>
+        <div class="contact-variant">
+          <div class="icon icon_without-gradient icon-call icon_dark"></div>
+          <div class="tel-number">
+            <p>Call Us</p>
+            <a href="tel:+00112365489">(00) 112 365 489</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="dark-background"></div>
+    <div class="banner color_light">
+      <div class="wrapper">
+        <div class="menu">
+          <nav class="menu__navigation">
+            <div class="burger-menu burger-menu-horizontal burger-menu_hide">
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </div>
+            <ul class="navigation">
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li class="navigation-element_side-bordered">About</li></a>
+              <a href="#"><li>Pages</li></a>
+              <a href="./index.html#projects"><li class="navigation-element_side-bordered">Project</li></a>
+              <a href="./index.html#contact-us"><li>Contacts</li></a>
+            </ul>
+          </nav>  
+          <div class="menu__contact-possibility">
+            <ul class="follow-us">
+              <a href="https://www.instagram.com/"><li><img class="instagram" src="src/icons/Instagram.svg" alt="instagram"></li></a>
+              <a href="https://www.facebook.com/"><li ><img class="facebook" src="src/icons/Facebook.svg" alt="facebook"></li></a>
+              <a href="https://x.com/"><li><img class="twitter" src="src/icons/Twitter.svg" alt="twitter"></li></a>
+              <a href="https://www.linkedin.com/"><li><img class="linkedin" src="src/icons/Linkdin.svg" alt="linkedin"></li></a>
+            </ul>
+            <button class="request-quote button_light button_white"><a href="#">Request Quote</a></button>
+          </div>
+        </div>
+        <section class="promo">
+          <div class="promo__block">
+            <h6 class="section-title background_coloured-semi-dark"> Logistics & Supply Chain Solutions </h6>
+            <h1>Your Gateway <br> to any Destination of the World</h1>
+            <p>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus.</p>
+            <button class="button button__promo button_light background_primary-coloured"><div class="button__angle button__angle_light "></div><span class="button__text">Explore more</span></button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <section class="services">
+      <div class="wrapper">
+        <div class="services__content">
+          <div class="services__heading">
+            <h6 class="section-title background_coloured-light">What We Do</h6>
+            <h2>Safe & Reliable Cargo Solutions</h2>
+          </div>
+          <div class="services__description">
+            <div class="service__items">
+              <div class="service-item">
+                <span class="icon-image ship-icon"></span>
+                <div class="service-item__description">
+                  <h3>Sea Transport Services</h3>
+                  <p class="color_grey">Following the quality of our service thus having gained trust of our many clients.</p>
+                </div>
+              </div>
+              <div class="service-item">
+                <span class="icon-image building-icon"></span>
+                <div class="service-item__description">
+                  <h3>Warehousing Services</h3>
+                  <p class="color_grey">Following the quality of our service thus having gained trust of our many clients.</p>
+                </div>
+              </div>
+              <div class="service-item">
+                <span class="icon-image plane-icon"></span>
+                <div class="service-item__description">
+                  <h3>Air Fright Services</h3>
+                  <p class="color_grey">Following the quality of our service thus having gained trust of our many clients.</p>
+                </div>
+              </div> 
+              <div class="service-item">
+                <span class="icon-image truck-icon"></span>
+                <div class="service-item__description">
+                  <h3>Local Shipping Services</h3>
+                  <p class="color_grey">Following the quality of our service thus having gained trust of our many clients.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="wrapper about__wrapper">
+        <div class="about__content">
+          <div class="about-information">
+            <div class="about-information__description">
+              <div class="about-information-text">
+                <h6 class="section-title background_coloured-light">Why us</h6>
+                <h2>We provide full range global logistics solution</h2>
+                <p class="color_grey">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.</p>
+                <p class="color_grey">Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+              </div>
+              <ul class="possibilieties">
+                <li>
+                  <div class="icon icon_with-gradient icon-box background_primary-coloured"><img src="./src/icons/icon-parcel.svg" alt="icon-box"></div>
+                  <h3>Delivery on Time</h3>
+                </li>
+                <li>
+                  <div class="icon icon_with-gradient icon-paper-money background_primary-coloured"><img class="paper-money" src="./src/icons/icon-paper-money.svg"></div>
+                  <h3>Optimized Travel Cost</h3>
+                </li>
+              </ul>
+            </div>
+            <div class="about-information__images">
+                <img class="plane" src="./src/images/homepage/plane.png" alt="plane">
+                <img class="office-worker" src="./src/images/homepage/office worker.png" alt="office worker">
+            </div>
+          </div>
+          <div class="about__statistics">
+            <div class="about__statistics-block">
+              <div class="delivered-packages statistics-block">
+                 <h2>1294</h2>
+                 <div class="icon-square background_primary-coloured"></div>
+                 <p>Delivered Packages</p>
+               </div>
+            </div>
+            <div class="about__statistics-block border-left_grey">
+              <div class="satisfied-clients statistics-block">
+                 <h2>3594</h2>
+                <div class="icon-square background_primary-coloured"></div>
+                 <p>Satisfied Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="projects" id="projects">
+      <div class="projects__wrapper">
+          <h2>Transporting Across The World</h2>
+          <div class="projects__examples">
+            <div class="project liquid-transportation">
+              <div class="project__name">
+                <h5 class="color_light">Liquid Transportation</h5>
+                <p class="project__additional-information color_primary">Premium Tankers</p>
+              </div>
+            </div>
+            <div class="project packaging-solutions">
+              <div class="project__name">
+                <h5 class="color_light">Packaging Solutions</h5>
+                <p class="project__additional-information color_primary">Warehouse Management</p>
+              </div>
+            </div>
+            <div class="project contract-logistics">
+              <div class="project__name">
+                <h5 class="color_light">Contract Logistics</h5>
+                <p class="project__additional-information color_primary">Road Transportation</p>
+              </div>
+            </div>
+            <div class="project warehouse-and-destribution">
+              <div class="project__name">
+                <h5 class="color_light">Warehouse & Distribution</h5>
+                <p class="project__additional-information color_primary">Large Warehouse</p>
+              </div>
+            </div>
+            <div class="project specialized-transport">
+              <div class="project__name">
+                <h5 class="color_light">Specialized Transport</h5>
+                <p class="project__additional-information color_primary">Ocean Transports</p>
+              </div>
+            </div>
+          </div>
+          <button class="button projects__button color_light background_primary2-coloured">
+            <div class="button__angle button__angle_dark "></div>
+            <span class="button__text">More work</span>
+          </button>
+      </div>
+      <div class="projects__bottom-part background_primary-coloured"></div>
+    </section>
+    <section class="testimonial">
+      <div class="wrapper testimonial__wrapper">
+          <div class="testimonial__topic">
+            <div class="testimonial__heading">
+              <h6 class="section-title background_coloured-light">Testimonial</h6>
+              <h2>What Our Customer Say</h2>
+            </div>
+            <div class="arrows">
+              <div class="arrow left-arrow background_primary-coloured">←</div>
+              <div class="arrow right-arrow background_primary2-coloured color_light">→</div>
+            </div>
+          </div>
+          <div class="testimonial__content">
+            <div class="review background_coloured_grey">
+              <div class="review__user">
+                <div class="review__user-information">
+                  <image class="user-image" src="./src/images/homepage/reviewer1.jpg" alt="user's photo"></image>
+                  <div class="review__user-profile">
+                    <h5>Kathleen Smith</h5>
+                    <p>Fuel Company</p>
+                  </div>
+                </div>
+                <div class="icon-quotation-mark icon_with-gradient background_primary-coloured"><span>"</span></div>
+              </div>
+              <div class="review__content">
+                <p class="color_grey">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                <span class="stars review__stars">⭐⭐⭐⭐⭐</span>
+              </div>
+            </div>
+            <div class="review background_primary2-coloured">
+              <div class="review__user">
+                <div class="review__user-information">
+                  <image class="user-image" src="./src/images/homepage/reviewer2.jpg" alt="user's photo"></image>
+                  <div class="review__user-profile color_light">
+                    <h5>John Martin</h5>
+                    <p>Restoration Company</p>
+                  </div>
+                </div>
+                <div class="icon-quotation-mark icon_with-gradient background_primary-coloured"><span>"</span></div>
+              </div>
+              <div class="review__content">
+                <p class="color_light">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                <span class="stars review__stars">⭐⭐⭐⭐⭐</span>
+              </div>
+            </div>
+          </div> 
+      </div>
+    </section>
+    <section class="why-choose-us">
+        <div class="why-choose-us__image-block background_primary2-coloured">
+          <div class="why-choose-us__image">
+            <div class="why-choose-us-image__banner background_primary-coloured">
+              <image src="./src/images/homepage/plane-icon.png" alt="plane-icon"></image>
+              <h3>Moving your products across borders</h3>
+            </div>
+          </div>        
+        </div>
+        <div class="why-choose-us__content background_coloured_grey">
+            <div class="why-choose-us__text">
+              <h6 class="section-title">Why Choose</h6>
+              <h2 class="why-choose-us__heading">We create opportunity to reach potential</h2>
+              <p class="color_grey">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. </p>
+            </div>
+            <div class="why-choose-us__possibilities">
+                <div class="possibility__1st-column">
+                  <div class="possibility">
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-parcel.svg" alt="icon-box"></div>
+                    <h4>Safe Package</h4>
+                  </div>
+                   <div class="possibility">
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-clock.svg" alt="icon-clock"></div>
+                    <h4>In Time Delivery</h4>
+                  </div>
+                  <div class="possibility">
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-coin.svg" alt="icon-coin"></div>
+                    <h4>Transparent Pricing</h4>
+                  </div>
+                </div>
+                <div class="possibility__2nd-column">
+                  <div class="possibility">
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-web.svg" alt="icon-web"></div>
+                    <h4>Global Tracking</h4>
+                  </div>
+                  <div class="possibility">
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-ship2.svg" alt="icon-ship"></div>
+                    <h4>Ship Everywhere</h4>
+                  </div>
+                  <div class="possibility">
+                    <div class="icon icon_with-gradient background_primary-coloured"><img src="./src/icons/icon-headphones.svg" alt="icon-headphones"></div>
+                    <h4>24/7 Support</h4>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="transporters" class="transporters">
+      <div class="wrapper transporters__inner-wrapper">
+          <h6 class="section-title background_coloured-light">The Transporters</h6>
+          <h2 class="transporters__heading">Meet Expert Team</h2>
+          <div class="transporters-cards">
+            <div class="transporter-card  background_dark">
+                <image src="./src/images/homepage/Jessca Arow.jpg"></image>
+              <div class="transporter__information color_light">
+                <h5>Jessca Arow</h5>
+                <p>Specialist in cargo transportation</p>
+              </div>
+              <ul class="transporter__social-media background_primary-coloured">
+                <a href="https://x.com/"><li><img class="twitter" src="src/icons/twitter_dark.svg" alt="twitter"></li></a>
+                <a href="https://www.facebook.com/"><li><img class="facebook" src="src/icons/facebook_dark.svg" alt="facebook"></li></a>
+                <a href="https://www.instagram.com/"><li><img class="instagram" src="src/icons/instagram_dark.svg" alt="instagram"></li></a>
+              </ul>
+            </div>
+            <div class="transporter-card background_dark">
+                <image src="./src/images/homepage/Kathleen Smith.jpg"></image>
+              <div class="transporter__information color_light">
+                <h5>Kathleen Smith</h5>
+                <p>Specialist in cargo transportation</p>
+              </div>
+              <ul class="transporter__social-media background_primary-coloured">
+                <a href="https://www.linkedin.com/"><li><img class="linkedin" src="src/icons/linkedIn_dark.svg" alt="linkedin"></li></a>
+                <a href="https://x.com/"><li><img class="twitter" src="src/icons/twitter_dark.svg" alt="twitter"></li></a>
+                <a href="https://www.facebook.com/"><li><img class="facebook" src="src/icons/facebook_dark.svg" alt="facebook"></li></a>
+                <a href="https://www.instagram.com/"><li><img class="instagram" src="src/icons/instagram_dark.svg" alt="instagram"></li></a>
+              </ul>
+            </div>
+            <div class="transporter-card background_dark">
+                <image src="./src/images/homepage/Rebecca Tylor.jpg"></image>
+              <div class="transporter__information color_light">
+                <h5>Rebecca Tylor</h5>
+                <p>Specialist in cargo transportation</p>
+              </div>
+              <ul class="transporter__social-media background_primary-coloured">
+                <a href="https://www.facebook.com/"><li><img class="facebook" src="src/icons/facebook_dark.svg" alt="facebook"></li></a>
+                <a href="https://www.instagram.com/"><li><img class="instagram" src="src/icons/instagram_dark.svg" alt="instagram"></li></a>
+              </ul>
+            </div>
+          </div>     
+      </div>
+    </section>
+    <section id="contact-us" class="contact background_dark color_light">
+      <div class="wrapper contact__inner-wrapper">
+          <div class="contact__content">
+            <div class="contact-information">
+              <div class="contacts-information__text">
+                <h6 class="section-title background_coloured-light-grey">Contact</h6>
+                <h2 class="contacts__heading">Get in touch with us</h2>
+                <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value.</p>
+              </div>
+              <div class="contacts">
+                <div class="contact-variant">
+                  <div class="icon icon-mail icon_without-gradient icon_dark"></div>
+                  <div class="email">
+                    <p>Email</p>
+                    <a href="mailto:contact@logistics.com">contact@logistics.com</a>
+                  </div>
+                </div>
+                <div class="contact-variant">
+                  <div class="icon icon-call icon_without-gradient icon_dark"></div>
+                  <div class="tel-number">
+                    <p>Call Us</p>
+                    <a href="tel:+00112365489">(00) 112 365 489</a>
+                  </div>
+                </div>
+                <div class="contact-variant">
+                  <div class="icon icon-clock icon_without-gradient icon_dark"></div>
+                  <div>
+                    <p>Mon - Sat 9.00 - 18.00</p>
+                    <p>Sunday Closed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <form class="contact-form" action="">
+              <div class="contact-form__layout-2-column">
+                  <label>
+                    <input class="form-field form-field_short user-name background_dark" type="text" name="name" placeholder="Your name*"  required>
+                  </label>
+                  <label>
+                    <input class="form-field form-field_short background_dark user-email"type="email" name="email" placeholder="Email*" required>
+                  </label>
+                  <label>
+                    <input class="form-field form-field_short background_dark user-tel-number" type="tel" name="tel" placeholder="Phone number*" required>
+                  </label>
+                  <label>
+                    <input class="form-field form-field_short background_dark user-city" type="text" name="city" placeholder="City*" required>
+                  </label>
+              </div>
+              <label>
+                <textarea class="user-message background_dark form-field form-field_long" name="message" placeholder="Your Message"></textarea>  
+              </label>
+              <button class="button button_light background_primary-coloured" type="submit">Submit Message</button>
+            </form>
+          </div>
+          <div class="contact__images">
+            <image class="contact-image" src="./src/images/homepage/1.jpg" alt="container terminal"></image>
+            <image class="contact-image" src="./src/images/homepage/2.jpg" alt="mountains"></image>
+            <image class="contact-image" src="./src/images/homepage/3.jpg" alt="plane"></image>
+            <image class="contact-image" src="./src/images/homepage/4.jpg" alt="mountains"></image>
+          </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="wrapper blog__inner-wrapper">
+          <div class="blog__title">
+            <h6 class="section-title background_coloured-light">Our Blog</h6>
+            <h2>Our Latest News</h2>
+          </div>
+          <div class="blog__content">
+            <div class="news-item">
+              <div class="news-item__image-block">
+                <image class="news-item__image" src="./src/images/homepage/container terminal top view.jpg" alt="container terminal top view">              </image>
+                <button class="news-item__image-darkening color_light">
+                  Read more 
+                </button>
+              </div>
+              <div class="news">
+                 <div class="news-item__date">
+                  <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
+                  <h3>08</h3>
+                  <p class="color_grey">September</p>
+                </div>
+                <div class="news-item__text">
+                  <h3>Inland freight a worthy solution for your business</h3>
+                  <p class="color_grey">We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                  <ul class="news-item__list">
+                    <li>Urgent transport solutions</li>
+                    <li>Reliable & experienced staffs</li>
+                    <li>Urgent transport solutions</li>
+                    <li>Reliable & experienced staffs</li>
+                  </ul>
+                </div>
+              </div>             
+            </div>
+            <div class="news-item">
+              <div class="news-item__image-block">
+                <image class="news-item__image" src="./src/images/homepage/people unload boxes.jpg" alt="people unload boxes"></image>
+                <button class="news-item__image-darkening color_light">
+                  Read more 
+                </button>
+              </div>              
+              <div class="news">
+                <div class="news-item__date">
+                <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
+                <h3>12</h3>
+                <p class="color_grey">September</p>
+              </div>
+              <div class="news-item__text">
+                <h3>How technology can help redraw the supply chain map</h3>
+                <p class="color_grey">We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                <ul class="news-item__list">
+                  <li>Urgent transport solutions</li>
+                  <li>Reliable & experienced staffs</li>
+                  <li>Urgent transport solutions</li>
+                  <li>Reliable & experienced staffs</li>
+                </ul>
+              </div>
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="news-item__image-block">
+                <image class="news-item__image" src="./src/images/homepage/container vessel from top.jpg" alt="container vessel from top"></image>
+                <button class="news-item__image-darkening color_light">
+                  Read more 
+                </button>
+              </div> 
+              <div class="news">
+                <div class="news-item__date">
+                <img src="./src/icons/icon-schedule.svg" alt="icon-schedule">
+                <h3>25</h3>
+                <p class="color_grey">September</p>
+              </div>
+              <div class="news-item__text">
+                <h3>Five things you should have ready for your broker</h3>
+                <p class="color_grey">We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                <ul  class="news-item__list">
+                  <li>Urgent transport solutions</li>
+                  <li>Reliable & experienced staffs</li>
+                  <li>Urgent transport solutions</li>
+                  <li>Reliable & experienced staffs</li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+          <button class="button news__button color_light background_primary2-coloured">
+            <div class="button__angle button__angle_dark "></div>
+            <span class="button__text">More Blog</span>
+          </button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer background_primary2-coloured color_light">
+    <image src="./src/images/homepage/footer background.jpg" alt="footer background"></image>
+    <div class="footer__4-column-layout">
+      <div class="footer__1st-column">
+        <div class="footer-heading">
+          <div class="logo">
+            <a class="logo__link" href="./index.html">
+              <div class="logo-image">
+                <div class="logo-square logo-square_rotated"></div>
+                <div class="logo-square logo-square_straight"></div>
+                <div class="logo-square logo-square_straight"></div>
+                <div class="logo-square logo-square_straight"></div>
+              </div>
+              <span>TransitFlow</span> 
+            </a>            
+          </div>
+        </div>
+        <div class="footer-content1__wrapper ">
+          <div class="contact-details">
+              <p class="color_grey">Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.</p>
+              <div class="contact-variant">
+                <div class="icon icon-mail icon_without-gradient icon_dark"></div>
+                <div class="email">
+                  <p>Email</p>
+                  <a href="mailto:contact@logistics.com">contact@logistics.com</a>
+                </div>
+              </div>
+              <div class="contact-variant">
+                <div class="icon icon-call icon_without-gradient icon_dark"></div>
+                <div class="tel-number">
+                  <p>Call Us</p>
+                  <a href="tel:+00112365489">(00) 112 365 489</a>
+                </div>
+              </div>
+            </div>
+        </div>      
+      </div>
+      <div class="footer__2nd-column">
+        <div class="footer-heading">
+          <h5>Pages</h5>
+        </div>
+        <ul class="list-pages">
+          <a href="#"><li>About Us</li></a> 
+          <a href="./index.html#transporters"><li>Our Team</li></a>
+          <a href="./index.html#projects"><li>Our Project</li></a>
+          <a href="#"><li>Pricing</li></a>
+          <a href="./index.html#contact-us"><li>Contact</li></a>
+        </ul>
+      </div>
+      <div class="footer__3rd-column">
+        <div class="footer-heading">
+          <h5>Utility</h5>
+        </div>
+        <ul class="list-utility">
+          <a href="#"><li>Style Guide</li></a>
+          <a href="#"><li>Changelog</li></a>
+          <a href="#"><li>Licenses</li></a>
+          <a href="#"><li>Protected</li></a>
+          <a href="#"><li>Not Found</li></a>
+        </ul>
+      </div>
+      <div class="footer__4th-column">
+        <div class="footer-heading">
+          <h5>Subscribe</h5>
+        </div>
+          <form class="subscription-form">
+            <label>
+              <input class="form-field form-field_short background_primary2-coloured email-subscription"type="email" name="email-subscription" placeholder="Your Email" required>
+            </label>
+              <div class="subscription-form__buttons">
+                <button type="submit" class="button button_light background_primary-coloured">Send Now</button>
+                <ul class="follow-us">
+                  <a href="https://www.linkedin.com/"><li><img class="linkedin" src="src/icons/Linkdin.svg" alt="linkedin"></li></a>
+                  <a href="https://x.com/"><li><img class="twitter" src="src/icons/Twitter.svg" alt="twitter"></li></a>
+                  <a href="https://www.facebook.com/"><li><img class="facebook" src="src/icons/Facebook.svg" alt="facebook"></li></a>    
+                </ul>
+              </div>
+            </form>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="footer-copyright">
+        <p class="copyright">Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.</p>
+        <ul class="copyright-links">
+          <a href="#"><li>Style Guide</li></a>
+          <a href="#"><li>Licenses</li></a>
+          <a href="#"><li>Changelog</li></a>
+          <a href="#"><li>Password</li> </a>                          
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+html {
+  font-size: 10px;
+  font-family: "Rubik", Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  font-size: 1.6rem;
+  max-width: 1920px;
+  margin:auto;
+}
+
+header, main, footer, ul {
+  margin: 0px; 
+  padding: 0px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+p {
+  font-family: "Krub", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 152%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  border-left: 4px solid #FFB629;
+  border-image-source: linear-gradient( to right, #FFB629, #FFDA56, #FFD7A6);
+  border-image-slice: 1;
+  width:fit-content;
+  padding: 3px 9px;
+
+}
+
+button {
+  font-family: "Krub", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 135%;
+  width: 194px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+ul {
+  font-family: "Krub", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.wrapper {
+  width:75%;
+  margin:auto;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color:inherit;
+}
+
