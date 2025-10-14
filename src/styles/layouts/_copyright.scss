@@ -1,0 +1,29 @@
+.footer-copyright {
+  padding: 15px 0 18px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.copyright {
+  line-height: 250%;
+}
+
+.copyright-links {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  font-weight: 400;
+  line-height: 250%;
+  color: $color-copyright-links;
+}
+
+.copyright-links a {
+  text-decoration: none;
+}
+
+.copyright-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.address {
+  width:62.1%;
+  min-width: 256px;
+ @extend %flex-space-between;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-variant {
+  display:flex;
+  align-items: center;
+  column-gap: 12px;
+  min-width: 256px;
+}
+
+.contact-variant p {
+  font-size: 14px;
+}

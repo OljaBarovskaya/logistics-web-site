@@ -1,0 +1,36 @@
+.transporters__inner-wrapper {
+  padding: 98px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transporters__heading {
+  margin-bottom: 40px;
+}
+
+.transporters-cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 54px;
+  flex-wrap: wrap;
+  row-gap: 54px;
+}
+
+.transporter-card {
+  position: relative;
+}
+
+.transporter__information {
+  padding: 42px 0 20px 34px;
+}
+
+.transporter__social-media {
+  position: absolute;
+  top: 395px;
+  right: 0px;
+  display: flex;
+  padding: 20.07px 17px;
+  column-gap: 25px;
+  list-style: none;
+}

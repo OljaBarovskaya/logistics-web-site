@@ -7,10 +7,7 @@
 }
 
 .burger-line {
-  display:inline-block;
-  height:2.53px;
-  width: 100%;
-  background-color: #FFFFFF;
+  @extend %burger-line;
 }
 
 .mob-menu_opened {
@@ -55,8 +52,7 @@
 }
 
 .mob-menu_opened .navigation {
-  display: flex;
-  flex-direction: column;
+  @extend %flex-column;
 }
 
 .mob-menu_opened .navigation li {

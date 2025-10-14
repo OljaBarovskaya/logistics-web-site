@@ -1,0 +1,36 @@
+.form-field {
+  width: 100%;
+  border: 1px solid $color-border-form-field;
+  border-radius: 0px;
+
+}
+
+.form-field::placeholder, .form-field {
+  color: $color-text-light;
+  @extend %font-Spartan;
+  @include font(400, 2rem);
+}
+
+.form-field_short {
+  height: 60px;
+  padding: 0 0 0 30px;
+}
+
+.form-field_long {
+  height: 154px;
+  padding: 21px 0 0 30px;
+}
+
+.subscription-form {
+  @extend %flex-column;
+  row-gap: 20px;
+  padding: 43px 0 43px 50px;
+}
+
+.subscription-form__buttons {
+  display: flex;
+  column-gap: 19px;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 20px;
+}

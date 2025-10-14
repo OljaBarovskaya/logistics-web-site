@@ -1,5 +1,5 @@
 .background_primary-coloured {
-  background: linear-gradient( to right, #FFB629, #FFDA56, #FFD7A6);
+  background: $color-gradient;
 }
 
 .background_primary2-coloured {
@@ -27,9 +27,9 @@
 }
 
 .color_light {
-  color: #FFFFFF;
+  color: $color-text-light;
 }
 
 .color_primary {
-  color: #FFB629;
+  color: $color-primary1;
 }

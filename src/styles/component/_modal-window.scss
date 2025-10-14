@@ -20,8 +20,7 @@
 
 .modal-window__main{
   padding: 10vh 10vw;
-  display: flex;
-  flex-direction: column;
+  @extend %flex-column;
   align-items: center;
   row-gap:20px;
   background-color: #FFFFFF;

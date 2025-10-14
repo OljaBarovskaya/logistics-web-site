@@ -1,0 +1,35 @@
+.logo {
+  padding: 16px 0;
+  width: 211px;
+}
+
+.logo__link {
+  @extend %flex-space-between;
+  align-items: center;
+  text-decoration: none;
+  color: $color-text-light;
+}
+
+.logo span {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.logo-image {
+  width:24px;
+  height: 23px;
+  @extend %flex-space-between;
+  flex-wrap: wrap;
+}
+
+.logo-square {
+  height: 10px;
+  width: 10px;
+  background-color: $color-logo;
+}
+
+.logo-square_rotated {
+  transform: rotate(30deg);
+  position: relative;
+  right: 2px;
+}

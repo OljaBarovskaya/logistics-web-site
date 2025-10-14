@@ -1,0 +1,78 @@
+.why-choose-us{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.why-choose-us__image-block {
+  width: 50%;
+  min-width: 565px;
+  padding: 143px 0;  
+  display: flex;
+  align-items: center;
+}
+
+.why-choose-us__image{
+  position: relative;
+  left: 11.7%;
+  background: url('../images/homepage/plane2.jpg');
+  background-repeat: no-repeat;
+  width:96.5%;
+  height: 610px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.why-choose-us-image__banner {
+  max-width: 417px;
+  height: 139px;
+  padding: 30px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 21px;
+}
+
+.why-choose-us__content {
+  width: 50%;
+  padding: 200px 12.25% 200px 142px;
+}
+
+.why-choose-us__text{
+  margin: 0 59px 61px 0;
+}
+
+.why-choose-us__heading {
+  margin: 0px 48px 18px 0;
+}
+
+.possibility {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+}
+
+.why-choose-us__possibilities {
+  display:flex;
+  flex-wrap: wrap;
+  column-gap: 72px;
+  row-gap: 20px;
+}
+
+.possibility__1st-column, .possibility__2nd-column{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+@media (max-width: 918px) {
+  .why-choose-us__image-block {
+    display: none;
+  }
+
+  .why-choose-us__content{
+    width: 100%;
+    padding: 200px 12.25%;
+  }
+}

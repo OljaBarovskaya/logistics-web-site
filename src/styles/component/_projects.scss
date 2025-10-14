@@ -1,0 +1,57 @@
+.projects {
+  min-height: 856px;
+  @extend %flex-column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.projects__bottom-part {
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.projects__wrapper {
+  padding: 97px 123px 150px 123px;
+  @extend %flex-column;
+  align-items: center;
+}
+
+.projects__examples{
+  margin: 35px 0 65px 0;
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 18px;
+  row-gap: 35px;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 320px;
+  height: 408px;
+  @extend %flex-column;
+  justify-content: flex-end;
+  padding: 0 0 20px 25px;
+  cursor: pointer;
+}
+
+.liquid-transportation{
+  background-image: url('../images/homepage/tank\ truck.jpg');
+}
+
+.packaging-solutions {
+  background-image: url('../images/homepage/warehousing.jpg');
+}
+
+.contract-logistics{
+  background-image: url('../images/homepage/truck.jpg');
+}
+
+.warehouse-and-destribution {
+  background-image: url('../images/homepage/railway\ container\ terminal.jpg');
+}
+
+.specialized-transport{
+  background-image: url('../images/homepage/container_vessel.jpg');
+}

@@ -72,3 +72,16 @@
   background-color: #111C55;
   border-color: #273270;
 }
+
+.paper-money {
+  height: 35px;
+}
+
+.instagram, .facebook, .twitter, .linkedin {
+  object-fit: contain;
+}
+
+.icon-quotation-mark {
+  font-size: 100px;
+  flex-shrink: 0;
+}

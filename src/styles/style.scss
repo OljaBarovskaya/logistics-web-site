@@ -1,0 +1,30 @@
+@import "abstract/constants";
+@import "abstract/placeholders";
+@import "abstract/mixins";
+
+@import "base/base";
+@import "base/general";
+@import "base/buttons";
+@import "base/icons";
+@import "base/colors";
+
+@import "layouts/wrapper";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/copyright";
+
+@import "component/logo";
+@import "component/address";
+@import "component/promo";
+@import "component/services";
+@import "component/about";
+@import "component/projects";
+@import "component/testimonial";
+@import "component/why-choose-us";
+@import "component/transporters";
+@import "component/contact";
+@import "component/form";
+@import "component/news";
+@import "component/burger";
+@import "component/modal-window.scss"
+

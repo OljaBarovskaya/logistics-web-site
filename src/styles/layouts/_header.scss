@@ -1,0 +1,13 @@
+header {
+  display:flex;
+  justify-content: center;
+  padding: 46px 0px;
+}
+
+.header__information {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+}

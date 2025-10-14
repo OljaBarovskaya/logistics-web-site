@@ -1,0 +1,51 @@
+%font-Krub {
+  font-family: "Krub", Arial, sans-serif;
+}
+
+%font-Rubik {
+  font-family: "Rubik", Arial, sans-serif;
+}
+
+
+%font-Spartan {
+  font-family: "League Spartan", Spartan, sans-serif;
+}
+
+%burger-line {
+  display:inline-block;
+  height:2.53px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+%flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+%flex-column  {
+  display: flex;
+  flex-direction: column;
+}
+
+%flex-column-space-between   {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+%flex-column-center  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+

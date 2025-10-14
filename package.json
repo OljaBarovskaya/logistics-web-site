@@ -1,0 +1,12 @@
+{
+  "name": "logistics-web-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/styles/style.scss src/styles/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

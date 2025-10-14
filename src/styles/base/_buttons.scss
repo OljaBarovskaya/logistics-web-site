@@ -1,0 +1,47 @@
+.button_white {
+  background-color: #FFFFFF;
+}
+
+.button__angle {
+  width: 32px;
+  height: 32px;
+  position:absolute;
+  bottom:0px;
+  right: 0px;
+  border-top-left-radius: 33px;
+  transition: all 1s;
+  z-index:1;
+}
+
+.button__angle_light {
+  background: #FFFFFF;
+}
+
+.button__angle_dark {
+  background: #1F2A69;
+}
+
+.button__text {
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+}
+
+.button__promo:hover > div, .projects__button:hover > div, .news__button:hover > div {
+  height:100px;
+  width:100px;
+  border-top-left-radius: 100px;
+}
+
+.button_light{
+  color: $color-text-dark;
+}
+
+.button__promo {
+  margin-top: 16px;
+}
+
+.promo__block button {
+  margin-top: 16px;
+}
+

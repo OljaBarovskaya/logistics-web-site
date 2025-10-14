@@ -1,0 +1,109 @@
+.about {
+  background-image: url('../images/homepage/Happag\ containers.png');
+  background-repeat: no-repeat;
+}
+
+.about__content {
+  margin-top: 366px;
+  width: 100%;
+  background-color: $color-text-light;
+  @extend %flex-column-space-between;
+  row-gap: 112px;
+  padding: 85px 7.45% 0px 7.45%;
+}
+
+.about-information {
+  @extend %flex-space-between;
+  flex-wrap: wrap;
+}
+
+.about-information__description {
+  max-width: 472px;
+  @extend %flex-column-space-between;
+  row-gap: 25px; 
+  margin: 0 0 50px 0; 
+}
+
+.about-information-text{
+  @extend %flex-column;
+  row-gap: 12px;
+}
+
+.about-information__images {
+  position: relative;
+}
+
+.about__statistics {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.plane{
+  width:100%;
+}
+
+.office-worker {
+  position: absolute;
+  top: 58%;
+  right:57%;
+  padding: 30px 30px 0px 0px;
+  background-color: $color-text-light;
+  width:65%;
+}
+
+.possibilieties {
+  @extend %flex-column;
+  row-gap: 22px;
+  list-style-type: none;
+}
+
+.possibilieties li {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about__statistics-block {
+  width: 50%;
+  min-width: 240px;
+  border-top: 1px solid #D4D4D4;
+  border-bottom: 1px solid #D4D4D4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 46px 5px 38px 5px;
+}
+
+.border-left_grey {
+  border-left: 1px solid #D4D4D4;
+}
+
+.statistics-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 16px;
+}
+
+@media (max-width: 1247px) {
+  .about-information {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 870px) {
+  .about__content {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 616px) {
+  .about__statistics-block {
+    border: none;
+  }
+}
